@@ -69,8 +69,6 @@ format:
     number-sections: true
     highlight-style: github
 
-  docx: default
-
 bibliography: sources/references/bibliography.bib
 
 crossref:
