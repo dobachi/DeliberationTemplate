@@ -57,9 +57,6 @@ jobs:
     - name: Build website
       run: |
         echo "Building examples and website..."
-        # index.qmdを個別にビルド
-        quarto render index.qmd --output-dir output
-        # examples/をビルド
         quarto render
 
     - name: Build PDF and DOCX formats

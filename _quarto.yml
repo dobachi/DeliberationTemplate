@@ -4,9 +4,9 @@ project:
   post-render:
     - python3 scripts/fix-docx-figures.py
   render:
+    - "index.qmd"
     - "examples/"
     - "templates/README.md"
-    - "!index.qmd"
     - "!templates/*.qmd"
     - "!reports/"
     - "!sources/"
