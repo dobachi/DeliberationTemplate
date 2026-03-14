@@ -7,6 +7,9 @@ AI指示書システムを活用して、論理的で質の高い検討文書を
 ## AI指示書システムの使用
 
 タスク開始時は`instructions/ai_instruction_kits/instructions/ja/system/ROOT_INSTRUCTION.md`を読み込んでください。
+ROOT_INSTRUCTION.mdはスキルオーケストレーターです。`.claude/skills/`のインストール済みスキルを確認し、タスクに応じて利用してください。
+
+スキルマーケットプレイス: <https://github.com/dobachi/AI_Instruction_Kits/tree/main/templates/claude-skills>
 
 ## プロジェクト設定
 
